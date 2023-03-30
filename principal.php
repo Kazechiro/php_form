@@ -37,6 +37,7 @@ $dado = mysqli_fetch_row($query);
         <li> <a  href="cadastrar.php">Cadastrar usuário</a></li><br>
         <li><a  href="consultar.php">Consultar usuário</a></li><br>
        <li><a  href="updatesenha.php">Atualizar senha</a></li><br>
+       <li> <a href="pesquisar_cnpj.php">Consultar CNPJ</a></li><br>
        <li><a  href="sair.php">Sair</li></a>
        </center>
         </ul>
