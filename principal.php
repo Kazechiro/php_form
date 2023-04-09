@@ -38,12 +38,15 @@ $dado = mysqli_fetch_row($query);
         <li><a  href="consultar.php">Consultar usuário</a></li><br>
        <li><a  href="updatesenha.php">Atualizar senha</a></li><br>
        <li> <a href="pesquisar_cnpj.php">Consultar CNPJ</a></li><br>
-       <li><a  href="sair.php">Sair</li></a>
+       <li><a href="gerar_json.php">Gerar arquivo Json do Cadastro</a></li><br>
+		<li><a href="enviar_cadastro.php">Enviar Cadastro</a></li><br>
+		<li><a href="cadastro.json" target="_blank">Exibir Arquivo Json Gerado</a></li><br>
+		<li><a href="sair.php">Sair</a></li>
        </center>
         </ul>
     </main>
     <footer>
-
+ 
     </footer>
   
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
